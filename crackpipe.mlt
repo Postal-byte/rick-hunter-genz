@@ -1,0 +1,145 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.20.0" title="Shotcut version 23.09.29" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <chain id="chain0" out="00:00:35.200">
+    <property name="length">00:00:35.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">the dude.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">128000</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-08-16T05:50:36</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:hash">3be6fe6ffc51cfd63282de5c2c0aa5ac</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">the dude.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:35.200"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:35.200">
+    <property name="length">00:00:35.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:35.200"/>
+  </playlist>
+  <chain id="chain1" out="00:00:35.200">
+    <property name="length">00:00:35.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">the dude.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">128000</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-08-16T05:50:36</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:hash">3be6fe6ffc51cfd63282de5c2c0aa5ac</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">the dude.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="chain1" in="00:00:00.000" out="00:00:35.200"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">MV5BZDc0ZjcxYjgtNTRjNC00NWVmLTgxODYtMzFhM2M4YTdhOGFmXkEyXkFqcGdeQXVyNjQyNTg3MjI@._V1_UY1200_CR285,0,630,1200_AL_-3395938503.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="meta.media.width">630</property>
+    <property name="meta.media.height">1200</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-08-16T05:54:09</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">49579177f046b87ae41cfe15234f73ee</property>
+    <property name="shotcut:caption">MV5BZDc0ZjcxYjgtNTRjNC00NWVmLTgxODYtMzFhM2M4YTdhOGFmXkEyXkFqcGdeQXVyNjQyNTg3MjI@._V1_UY1200_CR285,0,630,1200_AL_-3395938503.jpg</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">MV5BZDc0ZjcxYjgtNTRjNC00NWVmLTgxODYtMzFhM2M4YTdhOGFmXkEyXkFqcGdeQXVyNjQyNTg3MjI@._V1_UY1200_CR285,0,630,1200_AL_-3395938503.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="meta.media.width">630</property>
+    <property name="meta.media.height">1200</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-08-16T05:54:09</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">49579177f046b87ae41cfe15234f73ee</property>
+    <property name="shotcut:caption">MV5BZDc0ZjcxYjgtNTRjNC00NWVmLTgxODYtMzFhM2M4YTdhOGFmXkEyXkFqcGdeQXVyNjQyNTg3MjI@._V1_UY1200_CR285,0,630,1200_AL_-3395938503.jpg</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:05.680"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:13.080"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 23.09.29" in="00:00:00.000" out="00:00:35.200">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.561368</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <track producer="background"/>
+    <track producer="playlist0" hide="video"/>
+    <track producer="playlist1"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
